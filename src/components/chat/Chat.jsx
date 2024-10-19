@@ -3,7 +3,7 @@ import { RiCheckDoubleLine } from "react-icons/ri";
 import Profile from "./Profile";
 import SubmitMessage from "./SubmitMessage";
 
-export default function Chat() {
+export default function Chat({activeUser}) {
   return (
     <div className="w-2/3  bg-[#2f2b3d1f]  border">
       <Profile />

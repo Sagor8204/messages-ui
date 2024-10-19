@@ -1,5 +1,3 @@
-"use client";
-import { useState } from "react";
 import Search from "./Search";
 import SidebarItem from "./SidebarItem";
 
@@ -76,11 +74,10 @@ const datas = [
   },
 ];
 
-export default function Sidebar() {
-  const [activeUser, setActiveUser] = useState(null);
+export default function Sidebar({activeUser, setActiveUser}) {
 
   return (
-    <div className="bg-white w-1/3 border">
+    <div className="bg-white w-1/3 border rounded-md">
       {/* avatar and search */}
       <Search />
 
