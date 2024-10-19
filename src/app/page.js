@@ -7,7 +7,7 @@ export default function Home() {
       {/* sidebar */}
       <Sidebar />
 
-      {/* chats */}
+    
       <Chat />
     </div>
   );
