@@ -12,12 +12,12 @@ export default function Chat() {
   return (
     <div className="w-2/3  bg-[#2f2b3d1f]  border">
       <div className="bg-white flex items-center px-6 py-4 ">
-        <div className="flex flex-1 gap-4">
+        <div className="flex items-start flex-1 gap-4">
           <Image
             width={40}
             className="rounded-full "
             height={40}
-            src="/images/avatar-1.png"
+            src="/images/sender-avatar.png"
           ></Image>
 
           <div>
@@ -58,7 +58,7 @@ export default function Chat() {
         {/* Sender Message */}
         <div className="flex flex-row gap-4 mt-5  items-start">
           <Image
-            src="/images/avatar-1.png"
+            src="/images/sender-avatar.png"
             width={32}
             className="rounded-full"
             height={32}
@@ -109,7 +109,7 @@ export default function Chat() {
 
         <div className="flex flex-row gap-4 mt-5  items-start">
           <Image
-            src="/images/avatar-1.png"
+            src="/images/sender-avatar.png"
             width={32}
             className="rounded-full"
             height={32}
